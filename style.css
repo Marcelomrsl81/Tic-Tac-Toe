@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+    text-shadow: gray 0.1em 0.1em 0.2em
+}
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 204, 40);
+    border: 1 solid gray;
+    box-shadow: 10px 5px 5px gray;
+    border-radius: 10px;
+    display: inline-block;
+    
+
+}
+.o{
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    content:"\2705";
+    box-shadow: 10px 5px 5px gray;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+}
+.x{
+    position: relative;
+    
+}
+
+.x:after{
+    position: absolute;
+    content:"\274E ";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     
+    
+
+    
+}
