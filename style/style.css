@@ -43,7 +43,7 @@ h1{
 
 .x:after{
     position: absolute;
-    content:"\274E ";
+    content:"\274E";
     font-size: 50px;
     line-height: 100px;
     top: 0;
