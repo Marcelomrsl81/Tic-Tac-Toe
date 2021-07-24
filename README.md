@@ -32,7 +32,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone colocar endereco do repositorio
+git clone https://github.com/Marcelomrsl81/Tic-Tac-Toe.git
 
 # entrar na pasta do projeto Tic-Tac-Toe.
 
